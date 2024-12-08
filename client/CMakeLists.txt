@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.0 FATAL_ERROR)
 
-set(PROJECT AmneziaVPN)
+set(PROJECT ObscurifyVPN)
 project(${PROJECT})
 
 
@@ -296,16 +296,16 @@ if(APPLE)
     cmake_policy(SET CMP0114 NEW)
 
     if(NOT BUILD_OSX_APP_IDENTIFIER)
-        set(BUILD_OSX_APP_IDENTIFIER org.amnezia.AmneziaVPN CACHE STRING "OSX Application identifier")
+        set(BUILD_OSX_APP_IDENTIFIER org.obscurify.ObscurifyVPN CACHE STRING "OSX Application identifier")
     endif()
     if(NOT BUILD_IOS_APP_IDENTIFIER)
-        set(BUILD_IOS_APP_IDENTIFIER org.amnezia.AmneziaVPN CACHE STRING "iOS Application identifier")
+        set(BUILD_IOS_APP_IDENTIFIER org.obscurify.ObscurifyVPN CACHE STRING "iOS Application identifier")
     endif()
     if(NOT BUILD_IOS_GROUP_IDENTIFIER)
-        set(BUILD_IOS_GROUP_IDENTIFIER group.org.amnezia.AmneziaVPN CACHE STRING "iOS Group identifier")
+        set(BUILD_IOS_GROUP_IDENTIFIER group.org.obscurify.ObscurifyVPN CACHE STRING "iOS Group identifier")
     endif()
     if(NOT BUILD_VPN_DEVELOPMENT_TEAM)
-        set(BUILD_VPN_DEVELOPMENT_TEAM X7UJ388FXK CACHE STRING "Amnezia VPN Development Team")
+        set(BUILD_VPN_DEVELOPMENT_TEAM X7UJ388FXK CACHE STRING "Obscurify VPN Development Team")
     endif()
 
     set(CMAKE_XCODE_GENERATE_SCHEME FALSE)
