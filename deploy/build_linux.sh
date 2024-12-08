@@ -23,7 +23,7 @@ mkdir -p $CQTDEPLOYER_DIR
 echo "Project dir: ${PROJECT_DIR}" 
 echo "Build dir: ${BUILD_DIR}"
 
-APP_NAME=AmneziaVPN
+APP_NAME=ObscurifyVPN
 APP_FILENAME=$APP_NAME.app
 APP_DOMAIN=org.amneziavpn.package
 
