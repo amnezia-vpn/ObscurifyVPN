@@ -2121,7 +2121,7 @@ Already installed containers were found on the server. All installed containers 
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsLogging.qml" line="208"/>
-        <source>AmneziaVPN-service logs</source>
+        <source>ObscurifyVPN-service logs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
