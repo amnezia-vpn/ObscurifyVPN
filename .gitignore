@@ -1,9 +1,9 @@
 # User settings
 *.user
 macOSPackage/
-AmneziaVPN.dmg
-AmneziaVPN.exe
-AmneziaVPN_*.exe
+ObscurifyVPN.dmg
+ObscurifyVPN.exe
+ObscurifyVPN_*.exe
 deploy/build/*
 deploy/build_32/*
 deploy/build_64/*

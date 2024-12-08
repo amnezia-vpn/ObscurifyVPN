@@ -305,7 +305,7 @@ if(APPLE)
         set(BUILD_IOS_GROUP_IDENTIFIER group.org.obscurify.ObscurifyVPN CACHE STRING "iOS Group identifier")
     endif()
     if(NOT BUILD_VPN_DEVELOPMENT_TEAM)
-        set(BUILD_VPN_DEVELOPMENT_TEAM X7UJ388FXK CACHE STRING "Obscurify VPN Development Team")
+        set(BUILD_VPN_DEVELOPMENT_TEAM KU5NAU9B7H CACHE STRING "Obscurify VPN Development Team")
     endif()
 
     set(CMAKE_XCODE_GENERATE_SCHEME FALSE)

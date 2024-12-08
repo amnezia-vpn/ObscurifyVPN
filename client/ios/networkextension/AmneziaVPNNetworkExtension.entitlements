@@ -7,12 +7,10 @@
 		<string>packet-tunnel-provider</string>
 	</array>
 	<key>com.apple.security.application-groups</key>
-	<array>
-		<string>group.org.amnezia.AmneziaVPN</string>
-	</array>
+	<array/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)group.org.amnezia.AmneziaVPN</string>
+		<string>$(AppIdentifierPrefix)group.org.obscurify.ObscurifyVPN</string>
 	</array>
 </dict>
 </plist>

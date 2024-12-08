@@ -76,11 +76,12 @@ set_target_properties(${PROJECT} PROPERTIES
     XCODE_LINK_BUILD_PHASE_MODE KNOWN_LOCATION
     XCODE_ATTRIBUTE_LD_RUNPATH_SEARCH_PATHS "@executable_path/Frameworks"
     XCODE_EMBED_APP_EXTENSIONS networkextension
-    XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Apple Distribution"
-    XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
-    XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.amnezia.AmneziaVPN"
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.amnezia.AmneziaVPN"
+    XCODE_ATTRIBUTE_CODE_SIGN_STYLE Automatic
+    # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Apple Distribution"
+    # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
+    # XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.obscurify.ObscurifyVPN"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.obscurify.ObscurifyVPN"
 )
 set_target_properties(${PROJECT} PROPERTIES
     XCODE_ATTRIBUTE_SWIFT_VERSION "5.0"
@@ -90,7 +91,7 @@ set_target_properties(${PROJECT} PROPERTIES
     XCODE_ATTRIBUTE_SWIFT_OBJC_INTEROP_MODE "objcxx"
 )
 set_target_properties(${PROJECT} PROPERTIES
-    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "X7UJ388FXK"
+    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "KU5NAU9B7H"
 )
 target_include_directories(${PROJECT} PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 target_compile_options(${PROJECT} PRIVATE
