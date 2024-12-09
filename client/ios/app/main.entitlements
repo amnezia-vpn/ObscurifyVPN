@@ -8,13 +8,13 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.org.obscurify.DefaultVPN</string>
+		<string>group.org.default.DefaultVPN</string>
 	</array>
 	<key>com.apple.security.files.user-selected.read-write</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)group.org.obscurify.DefaultVPN</string>
+		<string>$(AppIdentifierPrefix)group.org.default.DefaultVPN</string>
 	</array>
 </dict>
 </plist>
