@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.25.0 FATAL_ERROR)
 
-set(PROJECT ObscurifyVPN)
+set(PROJECT DefaultVPN)
 
 project(${PROJECT} VERSION 4.8.2.4
-        DESCRIPTION "ObscurifyVPN"
+        DESCRIPTION "DefaultVPN"
         HOMEPAGE_URL "https://amnezia.org/"
 )
 

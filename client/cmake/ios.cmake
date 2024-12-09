@@ -80,8 +80,8 @@ set_target_properties(${PROJECT} PROPERTIES
     # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Apple Distribution"
     # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
     # XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
-    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.obscurify.ObscurifyVPN"
-    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.obscurify.ObscurifyVPN"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.obscurify.DefaultVPN"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.obscurify.DefaultVPN"
 )
 set_target_properties(${PROJECT} PROPERTIES
     XCODE_ATTRIBUTE_SWIFT_VERSION "5.0"

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.0 FATAL_ERROR)
 
-set(PROJECT ObscurifyVPN)
+set(PROJECT DefaultVPN)
 project(${PROJECT})
 
 
@@ -296,13 +296,13 @@ if(APPLE)
     cmake_policy(SET CMP0114 NEW)
 
     if(NOT BUILD_OSX_APP_IDENTIFIER)
-        set(BUILD_OSX_APP_IDENTIFIER org.obscurify.ObscurifyVPN CACHE STRING "OSX Application identifier")
+        set(BUILD_OSX_APP_IDENTIFIER org.obscurify.DefaultVPN CACHE STRING "OSX Application identifier")
     endif()
     if(NOT BUILD_IOS_APP_IDENTIFIER)
-        set(BUILD_IOS_APP_IDENTIFIER org.obscurify.ObscurifyVPN CACHE STRING "iOS Application identifier")
+        set(BUILD_IOS_APP_IDENTIFIER org.obscurify.DefaultVPN CACHE STRING "iOS Application identifier")
     endif()
     if(NOT BUILD_IOS_GROUP_IDENTIFIER)
-        set(BUILD_IOS_GROUP_IDENTIFIER group.org.obscurify.ObscurifyVPN CACHE STRING "iOS Group identifier")
+        set(BUILD_IOS_GROUP_IDENTIFIER group.org.obscurify.DefaultVPN CACHE STRING "iOS Group identifier")
     endif()
     if(NOT BUILD_VPN_DEVELOPMENT_TEAM)
         set(BUILD_VPN_DEVELOPMENT_TEAM KU5NAU9B7H CACHE STRING "Obscurify VPN Development Team")

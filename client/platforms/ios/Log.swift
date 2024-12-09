@@ -14,7 +14,7 @@ struct Log {
     }
   }
 
-  private static let appGroupID = "group.org.obscurify.ObscurifyVPN"
+  private static let appGroupID = "group.org.obscurify.DefaultVPN"
 
   static let appLogURL = {
     let sharedContainerURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: appGroupID)!

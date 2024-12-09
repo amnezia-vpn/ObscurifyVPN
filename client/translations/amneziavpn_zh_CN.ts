@@ -2068,7 +2068,7 @@ And if you don&apos;t like the app, all the more support it - the donation will 
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsLogging.qml" line="208"/>
-        <source>ObscurifyVPN-service logs</source>
+        <source>DefaultVPN-service logs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

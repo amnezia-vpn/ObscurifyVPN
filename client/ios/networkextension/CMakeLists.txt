@@ -32,8 +32,8 @@ set_target_properties(networkextension PROPERTIES
     # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
 
     # XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
-    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.obscurify.ObscurifyVPN.network-extension"
-    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.obscurify.ObscurifyVPN.network-extension"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.obscurify.DefaultVPN.network-extension"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.obscurify.DefaultVPN.network-extension"
 )
 
 set_target_properties(networkextension PROPERTIES
