@@ -89,60 +89,60 @@
     <name>ConnectionController</name>
     <message>
         <location filename="../ui/controllers/connectionController.h" line="80"/>
-        <location filename="../ui/controllers/connectionController.cpp" line="100"/>
-        <location filename="../ui/controllers/connectionController.cpp" line="115"/>
-        <location filename="../ui/controllers/connectionController.cpp" line="121"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="103"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="118"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="124"/>
         <source>Connect</source>
         <translation>جوڑنا</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="209"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="212"/>
         <source>The selected protocol is not supported on the current platform</source>
         <translation>منتخب کردہ پروٹوکول موجودہ پلیٹ فارم پر تعاون یافتہ نہیں ہے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="214"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="217"/>
         <source>VPN Protocols is not installed.
  Please install VPN container at first</source>
         <translation>وی پی این پروٹوکول انسٹال نہیں ہے,براہ کرم پہلےوی پی این کنٹینر انسٹال کریں</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="233"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="236"/>
         <source>unable to create configuration</source>
         <translation>تشکیل تیار کرنے میں ناکام</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="81"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="84"/>
         <source>Connecting...</source>
         <translation>جوڑاجارھاھے....</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="86"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="89"/>
         <source>Connected</source>
         <translation>جوڑاجارھاھے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="95"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="98"/>
         <source>Reconnecting...</source>
         <translation>دوبارہ جوڑنےکی کوشش...</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="105"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="108"/>
         <source>Disconnecting...</source>
         <translation>منقطع کرنا...</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="110"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="113"/>
         <source>Preparing...</source>
         <translation>تیاری کیا جا رہا ہے...</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="132"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="135"/>
         <source>Settings updated successfully, reconnnection...</source>
         <translation>ترتیب ک ھوگی،دوبارہ جوڑنےکی کوشش...</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/connectionController.cpp" line="135"/>
+        <location filename="../ui/controllers/connectionController.cpp" line="138"/>
         <source>Settings updated successfully</source>
         <translation>دوبارہ ترتیب تاذہ کامیاب</translation>
     </message>
@@ -252,23 +252,20 @@ Can&apos;t be disabled for current server</source>
 <context>
     <name>ImportController</name>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="87"/>
         <source>Unable to open file</source>
-        <translation>فائل کو کھولنے سے قاصر ہے</translation>
+        <translation type="vanished">فائل کو کھولنے سے قاصر ہے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="187"/>
-        <location filename="../ui/controllers/importController.cpp" line="192"/>
         <source>Invalid configuration file</source>
-        <translation>غلط کنفیگریشن فائل</translation>
+        <translation type="vanished">غلط کنفیگریشن فائل</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="617"/>
+        <location filename="../ui/controllers/importController.cpp" line="623"/>
         <source>Scanned %1 of %2.</source>
         <translation>سکین%1 کی%2.</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/importController.cpp" line="652"/>
+        <location filename="../ui/controllers/importController.cpp" line="658"/>
         <source>In the imported configuration, potentially dangerous lines were found:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -276,86 +273,86 @@ Can&apos;t be disabled for current server</source>
 <context>
     <name>InstallController</name>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="181"/>
+        <location filename="../ui/controllers/installController.cpp" line="157"/>
         <source>%1 installed successfully. </source>
         <translation>%1 کامیابی سےنصب. </translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="183"/>
+        <location filename="../ui/controllers/installController.cpp" line="159"/>
         <source>%1 is already installed on the server. </source>
         <translation>%1 پہلے ہی سرور پر انسٹال ہے. </translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="203"/>
+        <location filename="../ui/controllers/installController.cpp" line="179"/>
         <source>
 Added containers that were already installed on the server</source>
         <translation>
 وہ کنٹینرز شامل کیے گئے جو پہلے سے سرور پر نصب تھے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="283"/>
+        <location filename="../ui/controllers/installController.cpp" line="259"/>
         <source>
 Already installed containers were found on the server. All installed containers have been added to the application</source>
         <translation>
 سرور پر پہلے سے نصب کنٹینرز پائے گئے۔ تمام نصب کنٹینرز کو ایپلی کیشن میں شامل کر دیا گیا ہے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="541"/>
+        <location filename="../ui/controllers/installController.cpp" line="517"/>
         <source>Settings updated successfully</source>
         <translation>ترتیب کامیابی کے ساتھ اپ ڈیٹ ہو گئی</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="558"/>
+        <location filename="../ui/controllers/installController.cpp" line="534"/>
         <source>Server &apos;%1&apos; was rebooted</source>
         <translation>سرور %1 دوبارہ چالو کیا گیا تھا</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="570"/>
+        <location filename="../ui/controllers/installController.cpp" line="546"/>
         <source>Server &apos;%1&apos; was removed</source>
         <translation>سرور %1 ہٹا دیا گیا تھا</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="581"/>
+        <location filename="../ui/controllers/installController.cpp" line="557"/>
         <source>All containers from server &apos;%1&apos; have been removed</source>
         <translation>سرور &apos;%1&apos; سے تمام کنٹینرز ہٹا دیے گئے ہیں</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="599"/>
+        <location filename="../ui/controllers/installController.cpp" line="575"/>
         <source>%1 has been removed from the server &apos;%2&apos;</source>
         <translation>سرور &apos;%2&apos; سے %1 ہٹا دیا گیا ہے</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="608"/>
+        <location filename="../ui/controllers/installController.cpp" line="584"/>
         <source>Api config removed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="630"/>
+        <location filename="../ui/controllers/installController.cpp" line="606"/>
         <source>%1 cached profile cleared</source>
         <translation>%1 کیش کردہ پروفائل ختم کر دی گئی</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="769"/>
+        <location filename="../ui/controllers/installController.cpp" line="745"/>
         <source>Please login as the user</source>
         <translation>براہ کرم صارف کے طور پر لاگ ان کریں</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="797"/>
+        <location filename="../ui/controllers/installController.cpp" line="773"/>
         <source>Server added successfully</source>
         <translation>سرور کامیابی سے شامل کیا گیا</translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="845"/>
+        <location filename="../ui/controllers/installController.cpp" line="821"/>
         <source>%1 installed successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="877"/>
+        <location filename="../ui/controllers/installController.cpp" line="854"/>
         <source>API config reloaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/controllers/installController.cpp" line="881"/>
+        <location filename="../ui/controllers/installController.cpp" line="858"/>
         <source>Successfully changed the country of connection to %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -461,27 +458,27 @@ Already installed containers were found on the server. All installed containers 
         <translation>لاگنگ فعال ہے</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="110"/>
         <source>Split tunneling enabled</source>
         <translation>سپلٹ ٹنلنگ فعال ہے</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="111"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="110"/>
         <source>Split tunneling disabled</source>
         <translation>سپلٹ ٹنلنگ غیر فعال ہے</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="328"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="349"/>
         <source>VPN protocol</source>
         <translation>وی پی این پروٹوکول</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="383"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="404"/>
         <source>Servers</source>
         <translation>سرور</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageHome.qml" line="495"/>
+        <location filename="../ui/qml/Pages2/PageHome.qml" line="516"/>
         <source>Unable change server while there is an active connection</source>
         <translation>فعال کنکشن موجود ہونے کی وجہ سے سرور تبدیل کرنے میں ناکام ہیں</translation>
     </message>
@@ -1972,7 +1969,7 @@ Already installed containers were found on the server. All installed containers 
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsLogging.qml" line="208"/>
-        <source>DefaultVPN-service logs</source>
+        <source>AmneziaVPN-service logs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2357,12 +2354,12 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSetupWizardApiServicesList</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardApiServicesList.qml" line="52"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardApiServicesList.qml" line="46"/>
         <source>VPN by Amnezia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardApiServicesList.qml" line="53"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardApiServicesList.qml" line="47"/>
         <source>Choose a VPN service that suits your needs.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2386,97 +2383,107 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">کنکشن کی ترتیبات یا بیک اپ والی فائل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="57"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="58"/>
         <source>Connection</source>
         <translation type="unfinished">کنکشن</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="83"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="85"/>
         <source>Settings</source>
         <translation type="unfinished">ترتیبات</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="91"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="95"/>
         <source>Enable logs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="112"/>
-        <source>Insert the key, add a configuration file or scan the QR-code</source>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="111"/>
+        <source>Support tag</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="122"/>
+        <source>Copied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="139"/>
+        <source>Insert the key, add a configuration file or scan the QR-code</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="149"/>
         <source>Insert key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="123"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="150"/>
         <source>Insert</source>
         <translation type="unfinished">داخل کریں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="143"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="170"/>
         <source>Continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="161"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="188"/>
         <source>Other connection options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="172"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="199"/>
         <source>VPN by Amnezia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="173"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="200"/>
         <source>Connect to classic paid and free VPN services from Amnezia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="196"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="223"/>
         <source>Self-hosted VPN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="197"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="224"/>
         <source>Configure Amnezia VPN on your own server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="217"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="244"/>
         <source>Restore from backup</source>
         <translation type="unfinished">بیک اپ سے بحال کریں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="223"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="250"/>
         <source>Open backup file</source>
         <translation type="unfinished">بیک اپ فائل کو کھولیں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="224"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="251"/>
         <source>Backup files (*.backup)</source>
         <translation type="unfinished">بیک اپ فائلیں (*.backup)</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="241"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="268"/>
         <source>File with connection settings</source>
         <translation>کنکشن کی ترتیبات والی فائل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="249"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="276"/>
         <source>Open config file</source>
         <translation>کنفیگ فائل کو کھولیں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="268"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="295"/>
         <source>QR code</source>
         <translation>QR کوڈ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="291"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardConfigSource.qml" line="318"/>
         <source>I have nothing</source>
         <translation type="unfinished">میرے پاس کچھ نہیں ہے</translation>
     </message>
@@ -2498,12 +2505,12 @@ Already installed containers were found on the server. All installed containers 
         <translation>سرور آئی پی پتہ [:پورٹ]</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="116"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="113"/>
         <source>Continue</source>
         <translation>براہ کرم جاری رکھیں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="144"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="141"/>
         <source>All data you enter will remain strictly confidential and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation>آپ جو ڈیٹا داخل کریں گے وہ بالکل خفیہ رہے گا اور نہ تو امنیزیا یا کسی تیسری شخصیت کے ساتھ اشتراک کیا جائے گا</translation>
     </message>
@@ -2513,42 +2520,42 @@ Already installed containers were found on the server. All installed containers 
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="78"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="75"/>
         <source>SSH Username</source>
         <translation>ایس ایس ایچ صارف نام</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="94"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="91"/>
         <source>Password or SSH private key</source>
         <translation>پاس ورڈ یا SSH نجی کلید</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="153"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="150"/>
         <source>How to run your VPN server</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="154"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="151"/>
         <source>Where to get connection data, step-by-step instructions for buying a VPS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="170"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="167"/>
         <source>Ip address cannot be empty</source>
         <translation>آئی پی پتہ خالی نہیں ہو سکتا</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="173"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="170"/>
         <source>Enter the address in the format 255.255.255.255:88</source>
         <translation>ایڈریس درج کریں فارمیٹ 255.255.255.255:88</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="177"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="174"/>
         <source>Login cannot be empty</source>
         <translation>لاگ ان نام خالی نہیں ہو سکتا</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="181"/>
+        <location filename="../ui/qml/Pages2/PageSetupWizardCredentials.qml" line="178"/>
         <source>Password/private key cannot be empty</source>
         <translation>پاس ورڈ یا نجی کلید خالی نہیں ہو سکتی</translation>
     </message>
@@ -2861,23 +2868,28 @@ Already installed containers were found on the server. All installed containers 
         <translation>تلاش</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="817"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="814"/>
         <source>Creation date: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="825"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="822"/>
         <source>Latest handshake: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="833"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="830"/>
         <source>Data received: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="841"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="838"/>
         <source>Data sent: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="846"/>
+        <source>Allowed IPs: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2885,42 +2897,42 @@ Already installed containers were found on the server. All installed containers 
         <translation type="vanished">تخلیق کی تاریخ: </translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="862"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="866"/>
         <source>Rename</source>
         <translation>نام تبدیل</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="908"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="912"/>
         <source>Client name</source>
         <translation>کلائنٹ کا نام</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="921"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="925"/>
         <source>Save</source>
         <translation>محفوظ</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="955"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="960"/>
         <source>Revoke</source>
         <translation>واپس لین</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="959"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="964"/>
         <source>Revoke the config for a user - %1?</source>
         <translation>کیا آپ مستعمل کے لئے کنفیگ کو واپس لینا چاہتے ہیں - %1؟</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="960"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="965"/>
         <source>The user will no longer be able to connect to your server.</source>
         <translation>صارف آپ کے سرور سے متصل ہونے کا اختیار نہیں رہے گا.</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="961"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="966"/>
         <source>Continue</source>
         <translation>جاری رکھیں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageShare.qml" line="962"/>
+        <location filename="../ui/qml/Pages2/PageShare.qml" line="967"/>
         <source>Cancel</source>
         <translation>منسوخ</translation>
     </message>
@@ -3038,17 +3050,17 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageStart</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageStart.qml" line="198"/>
+        <location filename="../ui/qml/Pages2/PageStart.qml" line="202"/>
         <source>Logging was disabled after 14 days, log files were deleted</source>
         <translation>لاگنگ کو 14 دنوں کے بعد غیر فعال کر دیا گیا، لاگ فائلوں کو حذف کر دیا گیا</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageStart.qml" line="202"/>
+        <location filename="../ui/qml/Pages2/PageStart.qml" line="206"/>
         <source>Settings restored from backup file</source>
         <translation type="unfinished">ترتیبات بیک اپ فائل سے بحال کردی گئی ہیں</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageStart.qml" line="208"/>
+        <location filename="../ui/qml/Pages2/PageStart.qml" line="212"/>
         <source>Logging is enabled. Note that logs will be automaticallydisabled after 14 days, and all log files will be deleted.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3387,22 +3399,22 @@ Already installed containers were found on the server. All installed containers 
         <translation>سرور سے منسلک ہونے کا ٹائم آؤٹ</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="55"/>
+        <location filename="../core/errorstrings.cpp" line="56"/>
         <source>VPN connection error</source>
         <translation>VPN کنکشن کی خرابی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="58"/>
+        <location filename="../core/errorstrings.cpp" line="59"/>
         <source>Error when retrieving configuration from API</source>
         <translation>آپی سے کنفیگریشن بازیافت کرتے وقت خرابی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="59"/>
+        <location filename="../core/errorstrings.cpp" line="60"/>
         <source>This config has already been added to the application</source>
         <translation>یہ تشکیل پہلے ہی ایپلی کیشن میں شامل کی جا چکی ہے</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="78"/>
+        <location filename="../core/errorstrings.cpp" line="80"/>
         <source>ErrorCode: %1. </source>
         <translation>ایرر کوڈ: %1. </translation>
     </message>
@@ -3477,57 +3489,67 @@ Already installed containers were found on the server. All installed containers 
         <translation>ترتیب میں سرور سے منسلک ہونے کے لیے کوئی کنٹینرز اور اسناد نہیں ہیں</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="60"/>
-        <source>In the response from the server, an empty config was received</source>
+        <location filename="../core/errorstrings.cpp" line="53"/>
+        <source>Unable to open config file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="61"/>
-        <source>SSL error occurred</source>
+        <source>In the response from the server, an empty config was received</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="62"/>
-        <source>Server response timeout on api request</source>
+        <source>SSL error occurred</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="63"/>
+        <source>Server response timeout on api request</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core/errorstrings.cpp" line="64"/>
         <source>Missing AGW public key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="66"/>
+        <location filename="../core/errorstrings.cpp" line="65"/>
+        <source>Failed to decrypt response payload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core/errorstrings.cpp" line="68"/>
         <source>QFile error: The file could not be opened</source>
         <translation>QFile کی خرابی: فائل کو نہیں کھولا جا سکا</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="67"/>
+        <location filename="../core/errorstrings.cpp" line="69"/>
         <source>QFile error: An error occurred when reading from the file</source>
         <translation>کیو فائل کی خرابی: فائل سے پڑھتے وقت ایک خرابی پیش آگئی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="68"/>
+        <location filename="../core/errorstrings.cpp" line="70"/>
         <source>QFile error: The file could not be accessed</source>
         <translation>QFile کی خرابی: فائل تک رسائی نہیں ہو سکی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="69"/>
+        <location filename="../core/errorstrings.cpp" line="71"/>
         <source>QFile error: An unspecified error occurred</source>
         <translation>کیو فائل میں خرابی: ایک غیر متعینہ خرابی پیش آگئی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="70"/>
+        <location filename="../core/errorstrings.cpp" line="72"/>
         <source>QFile error: A fatal error occurred</source>
         <translation>کیو فائل میں خرابی: ایک مہلک خرابی پیش آگئی</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="71"/>
+        <location filename="../core/errorstrings.cpp" line="73"/>
         <source>QFile error: The operation was aborted</source>
         <translation>کیو فائل کی خرابی: آپریشن روک دیا گیا تھا</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="75"/>
+        <location filename="../core/errorstrings.cpp" line="77"/>
         <source>Internal error</source>
         <translation>داخلی خامی</translation>
     </message>
@@ -4068,7 +4090,7 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>VpnConnection</name>
     <message>
-        <location filename="../vpnconnection.cpp" line="408"/>
+        <location filename="../vpnconnection.cpp" line="409"/>
         <source>Mbps</source>
         <translation>ایم بی پی ایس</translation>
     </message>
@@ -4154,12 +4176,12 @@ While it offers a blend of security, stability, and speed, it&apos;s essential t
 <context>
     <name>main2</name>
     <message>
-        <location filename="../ui/qml/main2.qml" line="162"/>
+        <location filename="../ui/qml/main2.qml" line="163"/>
         <source>Private key passphrase</source>
         <translation>نجی کلید پاس فریز</translation>
     </message>
     <message>
-        <location filename="../ui/qml/main2.qml" line="185"/>
+        <location filename="../ui/qml/main2.qml" line="186"/>
         <source>Save</source>
         <translation>محفوظ کریں</translation>
     </message>
