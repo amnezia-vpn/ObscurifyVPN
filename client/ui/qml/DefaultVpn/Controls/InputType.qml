@@ -9,7 +9,7 @@ import Config 1.0
 
 import "TextTypes"
 
-ScrollView {
+TextField {
     id: root
 
     property string defaultBackgroundColor: Style.color.white
@@ -24,35 +24,33 @@ ScrollView {
     property string disabledBorderColor: Style.color.gray3
     property string disabledTextColor: Style.color.gray9
 
-    property string placeholderText
 
-    TextArea {
-        color: root.enabled ? root.defaultTextColor : (root.hovered || root.pressed) ? root.hoveredTextColor : root.disabledTextColor
-        background: Rectangle {
-            anchors.fill: parent
+    color: root.enabled ? root.defaultTextColor : (root.hovered || root.pressed) ? root.hoveredTextColor : root.disabledTextColor
+    background: Rectangle {
+        anchors.fill: parent
 
-            color: root.enabled ? root.defaultBackgroundColor : (root.hovered || root.pressed) ? root.hoveredBackgroundColor : root.disabledBackgroundColor
-            border.color: root.enabled ? root.defaultBorderColor : (root.hovered || root.pressed) ? root.hoveredBorderColor : root.disabledBorderColor
-            border.width: 1
-            radius: 6
-        }
-
-        topPadding: 12
-        bottomPadding: 12
-        leftPadding: 16
-        rightPadding: 16
-
-        inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhSensitiveData | Qt.ImhNoPredictiveText
-
-        selectionColor:  Style.color.accent1
-        selectedTextColor: Style.color.white
-
-        font.pixelSize: 17
-        font.weight: 400
-        font.family: Style.font
-
-        wrapMode: TextEdit.Wrap
-
-        placeholderText: root.placeholderText
+        color: root.enabled ? root.defaultBackgroundColor : (root.hovered || root.pressed) ? root.hoveredBackgroundColor : root.disabledBackgroundColor
+        border.color: root.enabled ? root.defaultBorderColor : (root.hovered || root.pressed) ? root.hoveredBorderColor : root.disabledBorderColor
+        border.width: 1
+        radius: 6
     }
+
+    topPadding: 12
+    bottomPadding: 12
+    leftPadding: 16
+    rightPadding: 16
+
+    inputMethodHints: Qt.ImhNoAutoUppercase | Qt.ImhSensitiveData | Qt.ImhNoPredictiveText
+
+    selectionColor:  Style.color.accent1
+    selectedTextColor: Style.color.white
+
+    font.pixelSize: 17
+    font.weight: 400
+    font.family: Style.font
+
+    wrapMode: TextEdit.Wrap
+
+    verticalAlignment: Text.AlignTop
+
 }
