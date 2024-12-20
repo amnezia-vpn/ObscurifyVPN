@@ -1,8 +1,13 @@
 # Amnezia VPN
-## _The best client for self-hosted VPN_
+
+### _The best client for self-hosted VPN_
+
 
 [![Build Status](https://github.com/amnezia-vpn/amnezia-client/actions/workflows/deploy.yml/badge.svg?branch=dev)](https://github.com/amnezia-vpn/amnezia-client/actions/workflows/deploy.yml?query=branch:dev)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/amnezia-vpn/amnezia-client)
+
+### [English]([https://github.com/amnezia-vpn/amnezia-client/blob/dev/README_RU.md](https://github.com/amnezia-vpn/amnezia-client/tree/dev?tab=readme-ov-file#)) | [Русский](https://github.com/amnezia-vpn/amnezia-client/blob/dev/README_RU.md)
+
 
 [Amnezia](https://amnezia.org) is an open-source VPN client, with a key feature that enables you to deploy your own VPN server on your server.
 

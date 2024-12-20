@@ -379,6 +379,13 @@ ErrorCode ApiController::getServicesList(QByteArray &responseBody)
 
     auto errorCode = checkErrors(sslErrors, reply);
     reply->deleteLater();
+
+    if (errorCode == ErrorCode::NoError) {
+        if (!responseBody.contains("services")) {
+            return ErrorCode::ApiServicesMissingError;
+        }
+    }
+
     return errorCode;
 }
 

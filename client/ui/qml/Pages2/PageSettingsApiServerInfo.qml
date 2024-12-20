@@ -56,12 +56,15 @@ PageType {
             }
 
             LabelWithImageType {
+                property bool showSubscriptionEndDate: ServersModel.getProcessedServerData("isCountrySelectionAvailable")
+
                 Layout.fillWidth: true
                 Layout.margins: 16
 
                 imageSource: "qrc:/images/controls/history.svg"
-                leftText: qsTr("Work period")
-                rightText: ApiServicesModel.getSelectedServiceData("workPeriod")
+                leftText: showSubscriptionEndDate ? qsTr("Valid until") : qsTr("Work period")
+                rightText: showSubscriptionEndDate ? ApiServicesModel.getSelectedServiceData("endDate")
+                                                   : ApiServicesModel.getSelectedServiceData("workPeriod")
 
                 visible: rightText !== ""
             }

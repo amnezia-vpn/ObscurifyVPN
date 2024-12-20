@@ -27,52 +27,52 @@
 <context>
     <name>ApiServicesModel</name>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="65"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="68"/>
         <source>Classic VPN for comfortable work, downloading large files and watching videos. Works for any sites. Speed up to %1 MBit/s</source>
         <translation>Звичайний VPN для комфортної роботи, завантаження великих файлів та перегляду відео. Працює для будь-яких сайтів. Швидкість до %1 MBit/s</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="69"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="72"/>
         <source>VPN to access blocked sites in regions with high levels of Internet censorship. </source>
         <translation>VPN для доступу до заблокованих сайтів у регіонах з високим рівнем інтернет-цензури. </translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="71"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="74"/>
         <source>&lt;p&gt;&lt;a style=&quot;color: #EB5757;&quot;&gt;Not available in your region. If you have VPN enabled, disable it, return to the previous screen, and try again.&lt;/a&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="78"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="81"/>
         <source>Amnezia Premium - A classic VPN for comfortable work, downloading large files, and watching videos in high resolution. It works for all websites, even in countries with the highest level of internet censorship.</source>
         <translation>Amnezia Premium - звичайний VPN для комфортної роботи, завантаження великих файлів та перегляду відео у високій роздільній здатності. Працює для всіх вебсайтів, навіть у країнах з найвищим рівнем інтернет-цензури.</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="81"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="84"/>
         <source>Amnezia Free is a free VPN to bypass blocking in countries with high levels of internet censorship</source>
         <translation>Amnezia Free — це безкоштовний VPN для обходу блокувань у країнах з високим рівнем інтернет-цензури</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="94"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="96"/>
         <source>%1 MBit/s</source>
         <translation>%1 MBit/s</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="101"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="103"/>
         <source>%1 days</source>
         <translation>%1 днів</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="110"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="112"/>
         <source>VPN will open only popular sites blocked in your region, such as Instagram, Facebook, Twitter and others. Other sites will be opened from your real IP address, &lt;a href=&quot;%1/free&quot; style=&quot;color: #FBB26A;&quot;&gt;more details on the website.&lt;/a&gt;</source>
         <translation>Лише популярні сайти, які заблоковані у вашому регіоні, будуть відкриватись за допомогою VPN підключення (Instagram, Facebook, Twitter та ін.). Звичайні сайти будуть відкриватися без використання VPN, &lt;a href=&quot;%1/free&quot; style=&quot;color: #FBB26A;&quot;&gt;більш детально на нашому сайті.&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="118"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="120"/>
         <source>Free</source>
         <translation>Безкоштовно</translation>
     </message>
     <message>
-        <location filename="../ui/models/apiServicesModel.cpp" line="120"/>
+        <location filename="../ui/models/apiServicesModel.cpp" line="122"/>
         <source>%1 $/month</source>
         <translation>%1 $/місяць</translation>
     </message>
@@ -511,6 +511,21 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageHome.qml" line="516"/>
         <source>Unable change server while there is an active connection</source>
         <translation>Не можна змінити сервер при активному підключенні</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageHome.qml" line="35"/>
+        <source>Online</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageHome.qml" line="35"/>
+        <source>Offline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageHome.qml" line="43"/>
+        <source>Connection to</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1554,6 +1569,14 @@ Already installed containers were found on the server. All installed containers 
     </message>
 </context>
 <context>
+    <name>PageSettingsApiLanguageList</name>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApiLanguageList.qml" line="61"/>
+        <source>Unable change server location while there is an active connection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>PageSettingsApiServerInfo</name>
     <message>
         <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="45"/>
@@ -1566,64 +1589,69 @@ Already installed containers were found on the server. All installed containers 
         <translation>Ціна</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="63"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="65"/>
         <source>Work period</source>
         <translation>Період роботи</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="74"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="65"/>
+        <source>Valid until</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="77"/>
         <source>Speed</source>
         <translation>Швидкість</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="106"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="109"/>
         <source>Support tag</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="119"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="122"/>
         <source>Copied</source>
         <translation>Скопійовано</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="139"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="142"/>
         <source>Reload API config</source>
         <translation>Перезавантажити конфігурацію API</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="144"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="147"/>
         <source>Reload API config?</source>
         <translation>Перезавантажити конфігурацію API?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="145"/>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="185"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="148"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="188"/>
         <source>Continue</source>
         <translation>Продовжити</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="146"/>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="186"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="149"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="189"/>
         <source>Cancel</source>
         <translation>Відмінити</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="150"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="153"/>
         <source>Cannot reload API config during active connection</source>
         <translation>Неможливо перезавантажити конфігурацію API під час активного підключення</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="179"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="182"/>
         <source>Remove from application</source>
         <translation>Видалити з додатку</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="184"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="187"/>
         <source>Remove from application?</source>
         <translation>Видалити з додатку?</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="190"/>
+        <location filename="../ui/qml/Pages2/PageSettingsApiServerInfo.qml" line="193"/>
         <source>Cannot remove server during active connection</source>
         <translation>Неможливо видалити сервер під час активного підключення</translation>
     </message>
@@ -2285,33 +2313,53 @@ Already installed containers were found on the server. All installed containers 
 <context>
     <name>PageSettingsServerInfo</name>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="161"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="104"/>
+        <source>Subscription is valid until </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="167"/>
         <source>Server name</source>
         <translation>Імя сервера</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="174"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="180"/>
         <source>Save</source>
         <translation>Зберегти</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="220"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="224"/>
         <source>Protocols</source>
         <translation>Протоколи</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="232"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="236"/>
         <source>Services</source>
         <translation>Сервіси</translation>
     </message>
     <message>
-        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="242"/>
+        <location filename="../ui/qml/Pages2/PageSettingsServerInfo.qml" line="246"/>
         <source>Management</source>
         <translation>Управління</translation>
     </message>
     <message>
         <source>Data</source>
         <translation type="vanished">Дані</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSettingsServerInfo.qml" line="61"/>
+        <source>Server settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSettingsServerInfo.qml" line="73"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSettingsServerInfo.qml" line="90"/>
+        <source>Remove server</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2408,6 +2456,11 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageSettingsServersList.qml" line="47"/>
         <source>Servers</source>
         <translation>Сервери</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSettingsServersList.qml" line="53"/>
+        <source>Connect to</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2699,6 +2752,31 @@ It&apos;s okay as long as it&apos;s from someone you trust.</source>
     <message>
         <source>Key as text</source>
         <translation type="vanished">Ключ у вигляді тексту</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSetupWizardConfigSource.qml" line="65"/>
+        <source>Adding a server to&#xa0;connect to</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSetupWizardConfigSource.qml" line="77"/>
+        <source>Key</source>
+        <translation type="unfinished">Ключ</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSetupWizardConfigSource.qml" line="88"/>
+        <source>VPN://</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSetupWizardConfigSource.qml" line="97"/>
+        <source>Add</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/DefaultVpn/Pages/PageSetupWizardConfigSource.qml" line="103"/>
+        <source>Unsupported config file</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3743,7 +3821,7 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation>Ця конфігурація вже була додана в застосунок</translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="80"/>
+        <location filename="../core/errorstrings.cpp" line="81"/>
         <source>ErrorCode: %1. </source>
         <translation type="unfinished"></translation>
     </message>
@@ -3837,37 +3915,42 @@ and will not be shared or disclosed to the Amnezia or any third parties</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="68"/>
-        <source>QFile error: The file could not be opened</source>
+        <location filename="../core/errorstrings.cpp" line="66"/>
+        <source>Missing list of available services</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="69"/>
-        <source>QFile error: An error occurred when reading from the file</source>
+        <source>QFile error: The file could not be opened</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="70"/>
-        <source>QFile error: The file could not be accessed</source>
+        <source>QFile error: An error occurred when reading from the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="71"/>
-        <source>QFile error: An unspecified error occurred</source>
+        <source>QFile error: The file could not be accessed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="72"/>
-        <source>QFile error: A fatal error occurred</source>
+        <source>QFile error: An unspecified error occurred</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core/errorstrings.cpp" line="73"/>
+        <source>QFile error: A fatal error occurred</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core/errorstrings.cpp" line="74"/>
         <source>QFile error: The operation was aborted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core/errorstrings.cpp" line="77"/>
+        <location filename="../core/errorstrings.cpp" line="78"/>
         <source>Internal error</source>
         <translation>Internal error</translation>
     </message>
