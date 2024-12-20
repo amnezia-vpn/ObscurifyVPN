@@ -1,5 +1,5 @@
 [Unit]
-Description=AmneziaVPN Service
+Description=DefaultVPN Service
 After=network.target
 StartLimitIntervalSec=0
 

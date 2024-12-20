@@ -1,9 +1,9 @@
 # User settings
 *.user
 macOSPackage/
-AmneziaVPN.dmg
-AmneziaVPN.exe
-AmneziaVPN_*.exe
+DefaultVPN.dmg
+DefaultVPN.exe
+DefaultVPN_*.exe
 deploy/build/*
 deploy/build_32/*
 deploy/build_64/*
@@ -48,7 +48,7 @@ client/ui_*.cpp
 client/Makefile*
 client/fastlane/build/
 client/*build-*
-client/AmneziaVPN.xcodeproj
+client/DefaultVPN.xcodeproj
 client/Debug-iphonesimulator/
 client/amneziavpn_plugin_import.cpp
 client/amneziavpn_qml_plugin_import.cpp

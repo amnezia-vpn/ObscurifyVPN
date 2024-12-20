@@ -12,7 +12,7 @@ mkdir -p $BUILD_DIR
 echo "Project dir: ${PROJECT_DIR}"
 echo "Build dir: ${BUILD_DIR}"
 
-APP_NAME=AmneziaVPN
+APP_NAME=DefaultVPN
 APP_FILENAME=$APP_NAME.app
 APP_DOMAIN=org.amneziavpn.package
 PLIST_NAME=$APP_NAME.plist

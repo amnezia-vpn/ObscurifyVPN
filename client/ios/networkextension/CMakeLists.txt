@@ -8,8 +8,8 @@ set_target_properties(networkextension PROPERTIES
     BUNDLE_EXTENSION appex
 
     MACOSX_BUNDLE_INFO_PLIST ${CMAKE_CURRENT_SOURCE_DIR}/Info.plist.in
-    MACOSX_BUNDLE_INFO_STRING "AmneziaVPNNetworkExtension"
-    MACOSX_BUNDLE_BUNDLE_NAME "AmneziaVPNNetworkExtension"
+    MACOSX_BUNDLE_INFO_STRING "DefaultVPNVPNNetworkExtension"
+    MACOSX_BUNDLE_BUNDLE_NAME "DefaultVPNVPNNetworkExtension"
     MACOSX_BUNDLE_GUI_IDENTIFIER "${BUILD_IOS_APP_IDENTIFIER}.network-extension"
     MACOSX_BUNDLE_BUNDLE_VERSION "${CMAKE_PROJECT_VERSION_TWEAK}"
     MACOSX_BUNDLE_LONG_VERSION_STRING "${APPLE_PROJECT_VERSION}-${CMAKE_PROJECT_VERSION_TWEAK}"
@@ -19,7 +19,7 @@ set_target_properties(networkextension PROPERTIES
     XCODE_ATTRIBUTE_CODE_SIGN_ENTITLEMENTS ${CMAKE_CURRENT_SOURCE_DIR}/AmneziaVPNNetworkExtension.entitlements
     XCODE_ATTRIBUTE_MARKETING_VERSION "${APP_MAJOR_VERSION}"
     XCODE_ATTRIBUTE_CURRENT_PROJECT_VERSION "${BUILD_ID}"
-    XCODE_ATTRIBUTE_PRODUCT_NAME "AmneziaVPNNetworkExtension"
+    XCODE_ATTRIBUTE_PRODUCT_NAME "DefaultVPNVPNNetworkExtension"
 
     XCODE_ATTRIBUTE_APPLICATION_EXTENSION_API_ONLY "YES"
     XCODE_ATTRIBUTE_ENABLE_BITCODE "NO"
@@ -27,12 +27,13 @@ set_target_properties(networkextension PROPERTIES
 
     XCODE_ATTRIBUTE_LD_RUNPATH_SEARCH_PATHS "@executable_path/../../Frameworks"
 
-    XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Apple Distribution"
-    XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
+    XCODE_ATTRIBUTE_CODE_SIGN_STYLE Automatic
+    # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY "Apple Distribution"
+    # XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
 
-    XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.amnezia.AmneziaVPN.network-extension"
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.amnezia.AmneziaVPN.network-extension"
+    # XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.default.DefaultVPN.network-extension"
+    # XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.default.DefaultVPN.network-extension"
 )
 
 set_target_properties(networkextension PROPERTIES
@@ -44,7 +45,7 @@ set_target_properties(networkextension PROPERTIES
 )
 
 set_target_properties("networkextension" PROPERTIES
-    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "X7UJ388FXK"
+    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "KU5NAU9B7H"
 )
 
 find_library(FW_ASSETS_LIBRARY AssetsLibrary)

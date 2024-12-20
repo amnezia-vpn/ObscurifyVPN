@@ -69,7 +69,7 @@ void AmneziaApplication::init()
 {
     m_engine = new QQmlApplicationEngine;
 
-    const QUrl url(QStringLiteral("qrc:/ui/qml/main2.qml"));
+    const QUrl url(QStringLiteral("qrc:/ui/qml/DefaultVpn/main.qml"));
     QObject::connect(
             m_engine, &QQmlApplicationEngine::objectCreated, this,
             [url](QObject *obj, const QUrl &objUrl) {
@@ -135,9 +135,9 @@ void AmneziaApplication::init()
         emit m_settingsController->importBackupFromOutside(filePath);
     });
 
-    QTimer::singleShot(0, this, [this]() { AmneziaVPN::toggleScreenshots(m_settings->isScreenshotsEnabled()); });
+    QTimer::singleShot(0, this, [this]() { DefaultVPN::toggleScreenshots(m_settings->isScreenshotsEnabled()); });
 
-    connect(m_settings.get(), &Settings::screenshotsEnabledChanged, [](bool enabled) { AmneziaVPN::toggleScreenshots(enabled); });
+    connect(m_settings.get(), &Settings::screenshotsEnabledChanged, [](bool enabled) { DefaultVPN::toggleScreenshots(enabled); });
 #endif
 
 #ifndef Q_OS_ANDROID
@@ -154,7 +154,7 @@ void AmneziaApplication::init()
     connect(this, &AmneziaApplication::translationsUpdated, m_notificationHandler.get(), &NotificationHandler::onTranslationsUpdated);
 #endif
 
-    m_engine->addImportPath("qrc:/ui/qml/Modules/");
+    m_engine->addImportPath("qrc:/ui/qml/DefaultVpn");
     m_engine->load(url);
     m_systemController->setQmlRoot(m_engine->rootObjects().value(0));
 
@@ -228,7 +228,7 @@ void AmneziaApplication::loadFonts()
 {
     QQuickStyle::setStyle("Basic");
 
-    QFontDatabase::addApplicationFont(":/fonts/pt-root-ui_vf.ttf");
+    QFontDatabase::addApplicationFont(":/fonts/VelaSans-GX.ttf");
 }
 
 void AmneziaApplication::loadTranslator()

@@ -1,13 +1,15 @@
 import HevSocks5Tunnel
+import Darwin
+import Darwin.POSIX.sys.socket
+import Darwin.POSIX.ifaddrs
+import Darwin.POSIX.ioctl
 
 public enum Socks5Tunnel {
 
     private static var tunnelFileDescriptor: Int32? {
         var ctlInfo = ctl_info()
-        withUnsafeMutablePointer(to: &ctlInfo.ctl_name) {
-            $0.withMemoryRebound(to: CChar.self, capacity: MemoryLayout.size(ofValue: $0.pointee)) {
-                _ = strcpy($0, "com.apple.net.utun_control")
-            }
+        "com.apple.net.utun_control".utf8CString.withUnsafeBytes { bytes in
+            memcpy(&ctlInfo.ctl_name, bytes.baseAddress, bytes.count)
         }
         for fd: Int32 in 0...1024 {
             var addr = sockaddr_ctl()
